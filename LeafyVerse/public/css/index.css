@@ -1,15 +1,24 @@
-html{
+*{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;   
+}
+html{
     width: 100vw;
     height: 100vh;
-    box-sizing: border-box;
+    
 }
-.bg-img{
-    object-fit: cover;
+body{
+    background-color: #F4F8F7;
+}
+.containerr{
     height: 600px;
-    width: 100vw;
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.containerr img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
