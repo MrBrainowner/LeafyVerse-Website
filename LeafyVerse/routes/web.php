@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // Index Page
-Route::get('/index', [DashboardController::class , 'index']);
+Route::get('/', [DashboardController::class , 'index']);
 // Home Page
 Route::get('/homepage', [HomepageController::class , 'homepage']);
 // About Page

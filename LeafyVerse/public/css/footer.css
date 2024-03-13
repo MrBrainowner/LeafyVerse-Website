@@ -1,0 +1,9 @@
+.f-container{
+    background-color: #121212;
+    padding: 2rem;
+}
+.box{
+    border: 2px solid white;
+    height: 300px;
+    width: 400px;
+}
