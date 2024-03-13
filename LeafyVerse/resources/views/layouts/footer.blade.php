@@ -12,9 +12,31 @@
 </head>
 <body>
     <div class="f-container container-fluid d-flex justify-content-evenly align-items-center flex-wrap">
-        <div class="box box1"></div>
-        <div class="box box2"></div>
-        <div class="box box3"></div>
+        <div class="box box1 d-flex flex-column">
+            <div>
+                <h2>LeafyVerse</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, qui.</p>
+            <div class="icons"></div>
+            </div>
+        </div>
+        <div class="box box2 d-flex align-items-center flex-column">
+            <div>
+                <h2>QUICK MENU</h2>
+            <p class="f-link"><a href="homepage">Home</a></p>
+            <p class="f-link"><a href="about">About Us</a></p>
+            <p class="f-link"><a href="contact">Contact Us</a></p>
+            <p class="f-link"><a href="service1">Services</a></p>
+            </div>
+        </div>
+        <div class="box box3 d-flex align-items-center flex-column">
+            <div>
+                <h2>HELP</h2>
+            <p class="f-link"><a href="">Privacy</a></p>
+            <p class="f-link"><a href="">Terms</a></p>
+            <p class="f-link"><a href="">FAQs</a></p>
+            <p class="f-link"><a href="">Blog</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

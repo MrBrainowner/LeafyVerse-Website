@@ -1,14 +1,10 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 body{
     background-color: #F4F8F7;
 }
 .containerr{
     height: 600px;
     width: 100%;
+    box-sizing: border-box;
     overflow: hidden;
 }
 .containerr img{
@@ -20,3 +16,4 @@ body{
     padding: 40px;
     text-align: justify;
 }
+
