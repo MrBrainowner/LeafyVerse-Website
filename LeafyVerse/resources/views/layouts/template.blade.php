@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="vh-100">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -9,12 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LeafyVerse</title>
 </head>
-<body class="vh-100">
-        @include('layouts.nav')
-            <div class="p-0 flex-fill">
-                @yield('content')
-            </div>
-        @include('layouts.footer')
-    </div>
+<body>
+    @include('layouts.nav')
+        <div class="p-0 h-100">
+            @yield('content')
+        </div>
+    @include('layouts.footer')
 </body>
 </html>
