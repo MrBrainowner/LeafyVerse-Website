@@ -10,10 +10,12 @@
     <title>LeafyVerse</title>
 </head>
 <body>
-    @include('layouts.nav')
-        <div class="p-0 h-100">
-            @yield('content')
-        </div>
-    @include('layouts.footer')
+    <div class="d-flex flex-column">
+        @include('layouts.nav')
+            <div class="p-0 flex-fill">
+                @yield('content')
+            </div>
+        @include('layouts.footer')
+    </div>
 </body>
 </html>
